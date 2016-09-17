@@ -25,7 +25,7 @@ fi
 
 # Download user manager
 if ! test -e /usr/bin/loadUserDatabase; then
-    curl -s -k -o /usr/bin/loadUserDatabase "https://raw.githubusercontent.com/jm33-m0/gfw_scripts/master/userManager/loadUserDatabase" && chmod 755 /usr/bin/loadUserDatabase
+    curl -s -k -o /usr/bin/loadUserDatabase "https://raw.githubusercontent.com/jm33-m0/gfw_scripts/master/ssplus/loadUserDatabase" && chmod 755 /usr/bin/loadUserDatabase
 fi
 
 # Download ssp-server and install it to /usr/bin
